@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 // Start your code from here
-  var temas = ["pikachu", "pichu", "bulbasaur", "squirtle", "charizard", "jigglypuff", "meowth", "dragonite", "mewtwo", "mew"];
+  var temas = ["pikachu", "pichu", "squirtle", "charizard", "gengar", "jigglypuff", "meowth", "dragonite", "mewtwo", "mew"];
 
   for (var i = 0; i < temas.length; i++) {
     $("#animal-buttons").append(`<button class="animal-button">${temas[i]}</button>`);
